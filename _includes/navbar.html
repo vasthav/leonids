@@ -1,0 +1,22 @@
+<!-- {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+<nav class="navbar navbar-light bg-faded">
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="true" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2" style="align-content: center;">
+    <ul class="nav navbar-nav" style="text-align:center">
+      <li class="nav-item" >
+        <a href="{{ site.url }}/">Home</a>
+      </li>
+      {% for page in site.pages %} {% if page.title %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        {% unless forloop.last %}
+          <span></span>
+        {% endunless %}
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </div>
+</nav> -->
