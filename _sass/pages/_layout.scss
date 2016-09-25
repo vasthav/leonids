@@ -5,11 +5,11 @@
   text-align: center;
   width: 100%;
   min-height: 400px;
-  padding: 30px 15px 20px;
+  // padding: 30px 15px 20px;
   z-index: 1;
   @include media-query($small-screen) {
     background-position: center;
-    padding: 30px;
+    // padding: 30px;
   }
   @include media-query($medium-screen) {
     height: 100vh;
@@ -50,7 +50,6 @@
     padding: 0 0px 80px;
   }
 }
-
 .social-links {
   margin-top: 0.5em;
   ul {
@@ -90,15 +89,3 @@
     }
   }
 }
-/*
-#mynavbar{
-  margin: auto;
-}
-
-.nav-item a{
-  color: rgb(79, 159, 207);
-  font-size: 18px;
-  padding: 10px;
-  margin: auto;
-}
-*/

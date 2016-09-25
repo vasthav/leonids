@@ -3,15 +3,12 @@
 
 {% include head.html %}
 
-<body>
-  <div class="row"  style="padding-left:10px">
-    <div class="col s12 md12">
-    {% include navbar.html %}
-      <div class="post-listing">
-        {{ content }}
-        {% include footer.html %}
-      </div>
-    </div>
+<body style="padding-top: 70px">
+  {% include navbar.html %}
+
+  <div class="post-listing">
+    {{ content }}
+    {% include footer.html %}
   </div>
   {% include js.html %}
 </body>
