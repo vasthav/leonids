@@ -1,6 +1,6 @@
 # Sparta Jekyll Themes
 
-## What is Leonids?
+## What is Sparta?
 
 * Responsive templates. Looking good on mobile, tablet, and desktop.
 * Simple and clear permalink structure.
