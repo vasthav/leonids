@@ -12,9 +12,9 @@ See a [demo](http://vasthav.github.io/) hosted on GitHub.
 
 ## Quick setup
 
-`git clone https://github.com/renyuanz/leonids`
+`git clone https://github.com/vasthav/sparta.git`
 
-`cd leonids`
+`cd sparta`
 
 `jekyll server`
 
