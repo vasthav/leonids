@@ -39,28 +39,28 @@ owner:
   bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: username
+  facebook: username
   google:
-    plus: #username
+    plus: username
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
-  instagram: #username
+  instagram: username
   lastfm: #username
   tumblr: #username
   pinterest: #username
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
-  soundcloud: #username
+  youtube: username
+  soundcloud: username
   weibo: #username
   flickr: #username
   500px: #username
